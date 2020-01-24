@@ -1,10 +1,9 @@
 // Navigation code here
 .navbar {
-    display: flex;
+    .space();
     flex-direction: column;
     height: 10vh;
     align-items: center;
-    justify-content: space-around;
     background: @nav-bg;
     border-bottom: 1px solid @nav-border;
 
@@ -14,8 +13,11 @@
 
     nav {
         width: 40vw;
-        display: flex;
-        justify-content: space-around;
+        .space();
+
+        @media @phone {
+            width: 80%;
+        }
         
 
         a {
