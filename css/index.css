@@ -289,12 +289,34 @@ footer {
   border-radius: 7px;
 }
 .home .walk .walk-text .btn:hover {
-  background: #81848E;
-  color: #FFFF4D;
+  background: #D4AF37;
+  color: ebony-clay;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    background: #22283A;
+    color: #F6F7F8;
+    width: 100%;
+    text-align: center;
+    padding: 6%;
+    font-size: 2rem;
+    border-radius: 7px;
+  }
+  .home .walk .walk-text .btn:hover {
+    background: #D4AF37;
+    color: ebony-clay;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;

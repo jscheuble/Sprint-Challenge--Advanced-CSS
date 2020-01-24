@@ -95,12 +95,24 @@
 
       .btn {
         .signUp(35%, 3%);
+        .hover();
+
+        @media @phone {
+          .signUp(100%, 6%);
+          .hover();
+        }
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+      @media @phone {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+      }
       
       img {
         width: 100%;
